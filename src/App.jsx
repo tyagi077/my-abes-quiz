@@ -105,7 +105,7 @@ function App() {
     <div className="min-h-screen relative" >
       <div className="fixed top-0 w-full h-[300px] bg-[#66E1D7]">
       </div>
-      <div className="absolute py-4 flex flex-col gap-6  overflow-y-auto w-[90%] max-w-[400px]  bg-white px-4   shadow-2xl rounded-md top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-40   ">
+      {/* <div className="absolute py-4 flex flex-col gap-6  overflow-y-auto w-[90%] max-w-[400px]  bg-white px-4   shadow-2xl rounded-md top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-40   ">
         <h3 className="text-gray-700 font-semibold text-lg text-center">Enter Your Details</h3>
         <div className="flex flex-col ">
           <label className="text-gray-700 font-semibold text-md">Enter Quiz Code:</label>
@@ -124,8 +124,8 @@ function App() {
           <input  onClick={(e) => handleClick(e)} className={`bg-[#4FDDD1] cursor-pointer py-3 rounded-md w-full`} type="submit" value={loading ? `Wait for ${time} seconds...` : 'Submit'} disabled={loading} />
         </div>
 
-      </div>
-      <div className="absolute top-3/4  px-5 py-10  w-full ">
+      </div> */}
+      {/* <div className="absolute top-3/4  px-5 py-10  w-full ">
         <h3 className="text-lg text-gray-500 font-semibold">Steps:</h3>
         <ul className="flex flex-col gap-2 text-md w-full">
           <li className="font-semibold">*First Step Bharosa krna hai🎉</li>
@@ -134,7 +134,7 @@ function App() {
           <li> 3️⃣ Go to <a className="underline text-blue-500" href="https://abesquiz.netlify.app" target="_blank" rel="noopener noreferrer"> abesquiz.netlify.app</a> Refresh and manually click "Submit" to proceed.</li>
           <li> 4️⃣ Done! Your quiz answers will be processed. 🎉</li>
         </ul>
-      </div>
+      </div> */}
     </div>
   )
 }
